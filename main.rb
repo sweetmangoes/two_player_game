@@ -1,6 +1,8 @@
 # will require all the other files 
 require './class/player'
+require './class/game'
 
-player_one = Player.new
+new_game = Game.new 
+# new_game.test
 
-puts player_one
+p new_game
