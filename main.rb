@@ -1,6 +1,6 @@
-require './player'
-require './game'
-require './question'
+require './class/player'
+require './class/game'
+require './class/question'
 
 game = Game.new
 p game.start_game

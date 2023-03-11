@@ -23,7 +23,7 @@ class Game
      puts "P1: #{@player_one.lives}/3 vs P2: #{@player_two.lives}/3"
      puts "----- NEW TURN -----"
      @turn += 1
-     ask_question
+     start_game
    end
   end
  
