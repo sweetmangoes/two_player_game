@@ -1,6 +1,8 @@
-# will require all the other files 
-require './class/player'
-require './class/game'
+require './player'
+require './game'
+require './question'
 
-new_game = Game.new 
-p new_game
+game = Game.new
+p game.start_game
+
+# PEER-PROGRAMMED WITH Clayton Van Imschoot 
