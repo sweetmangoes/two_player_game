@@ -13,7 +13,7 @@ The player whose turn it is is prompted the question and must answer correctly o
 -> wait for player answer to match answer ... get.chomp
 -> if answer doesn't match prints "Seriously? no!" --> score minus by one 
 -> if answer matches prints "YES! You are correct."
--> prints out the players lives "P1: #{score} and P2: #{score}"
+-> prints out the players lives "P1: #{score} vs P2: #{score}"
 -> prints out "---New Turn---" for the next player 
 
 =end 
